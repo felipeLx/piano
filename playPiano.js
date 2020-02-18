@@ -215,7 +215,7 @@ function playKeyboard(){
 	var iWhite = 0;
 	var notes = __audioSynth._notes; //C, C#, D....A#, B
 
-	for(var i=-2;i<=1;i++) {
+	for(var i=-1;i<=1;i++) {
 		for(var n in notes) {
 			if(n[2]!='b') {
 				var thisKey = document.createElement('div');
@@ -223,7 +223,7 @@ function playKeyboard(){
 					thisKey.className = 'black key'; //2 classes
 					thisKey.style.width = '30px';
 					thisKey.style.height = '120px';
-					thisKey.style.left = (40 * (iWhite - 1)) + 25 + 'px';
+					thisKey.style.left = (40 * (iWhite - 1)) + 0 + 'px';
 				} else {
 					thisKey.className = 'white key';
 					thisKey.style.width = '40px';
