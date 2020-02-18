@@ -1,9 +1,8 @@
 .title{
     height: 450px;
-    background-repeat: no-repeat;
-    background-image: url(https://lh3.googleusercontent.com/proxy/f6-bMfRj_uequ3H3aoI-QQcWPyf1QSLqWLM7C8EY6jgLPfEvw6nOu-wf_0LIMGLqLit0pfuWwBVJ_Bn3sxAe4UIiQIyU-8ZvAI_RQLB5wTl8BHS_jj-XWehiGB_XgiFYH2SMIaO1jNTbuM8a-L4sTpdzJslN2zsqZ2k);
-    padding: 100px 0 0 150px;
-    margin-left: 300px;
+    background-repeat: repeat;
+    background-image: url(image/ballet.jpg);
+    text-align: center;
 }
 
 .key { position: absolute; font-family: Helvetica; font-weight: 100; font-size: 12px;
