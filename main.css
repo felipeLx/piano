@@ -1,9 +1,10 @@
 .body {
     width: 840px;
+    
 }
 
 .title{
-    height: 450px;
+    height: 250px;
     background-repeat: no-repeat;
     background-image: url(image/ballet.jpg);
     text-align: center;
